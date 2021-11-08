@@ -137,8 +137,9 @@ module.exports.parse = (raw, { yaml }) => {
 		"PROCESS-NAME,transmission-qt.exe,DIRECT",
 		"PROCESS-NAME,uTorrent.exe,DIRECT",
 		"PROCESS-NAME,WebTorrent.exe,DIRECT",
-		"DOMAIN,clash.razord.top,DIRECT",
-		"DOMAIN,yacd.haishan.me,DIRECT",
+		"DOMAIN,mojie.pw,节点选择",
+		"DOMAIN-KEYWORD,clash,节点选择",
+		"DOMAIN-KEYWORD,mojie,节点选择",
 		"RULE-SET,private,DIRECT",
 		"RULE-SET,direct,全球直连",
 		"RULE-SET,icloud,Apple",
@@ -147,6 +148,8 @@ module.exports.parse = (raw, { yaml }) => {
 		"RULE-SET,reject,全球拦截",
 		"RULE-SET,proxy,节点选择",
 		"RULE-SET,telegramcidr,Telegram",
+		"DOMAIN-KEYWORD,clash,节点选择",
+
 		"MATCH,DIRECT")
 //--------------------------------------------------规则集-----------------------------------------------------
 	var rule_providers=`rule-providers:
