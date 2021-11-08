@@ -150,6 +150,8 @@ module.exports.parse = (raw, { yaml }) => {
 		"RULE-SET,icloud,Apple",
 		"RULE-SET,apple,Apple",
 		"RULE-SET,google,Google",
+		"RULE-SET,github,Github",
+		"RULE-SET,spotify,Spotify",
 		"RULE-SET,reject,全球拦截",
 		"RULE-SET,proxy,节点选择",
 		"RULE-SET,telegramcidr,Telegram",
@@ -228,7 +230,7 @@ module.exports.parse = (raw, { yaml }) => {
       type: http
       behavior: domain
       url: https://cdn.jsdelivr.net/gh/LM-Firefly/Rules@master/Clash-RuleSet-Classical/Global-Services/Spotify.yaml
-      path: ./ruleset/github.yaml
+      path: ./ruleset/spotify.yaml
       interval: 86400
     telegramcidr:
       type: http
