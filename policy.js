@@ -66,6 +66,11 @@ module.exports.parse = (raw, { yaml }) => {
 		"type": "select",
 		"proxies":["节点选择","全球直连","自动选择"].concat(node)
 	})
+	groups.push({
+		"name":"Spotify",
+		"type": "select",
+		"proxies":["节点选择","全球直连","自动选择"].concat(node)
+	})
 	//全球直连
 	groups.push({
 		"name":"全球直连",
@@ -217,6 +222,12 @@ module.exports.parse = (raw, { yaml }) => {
       type: http
       behavior: domain
       url: https://cdn.jsdelivr.net/gh/LM-Firefly/Rules@master/Clash-RuleSet-Classical/PROXY/Github.yaml
+      path: ./ruleset/github.yaml
+      interval: 86400
+	spotify:
+      type: http
+      behavior: domain
+      url: https://cdn.jsdelivr.net/gh/LM-Firefly/Rules@master/Clash-RuleSet-Classical/Global-Services/Spotify.yaml
       path: ./ruleset/github.yaml
       interval: 86400
     telegramcidr:
