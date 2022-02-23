@@ -5,6 +5,7 @@
     "outboundTag": "direct",
     "ip": [],
     "domain": [
+      "pingcode",
       "uz.yurixu.com",
       "intel",
       "cdn.jsdelivr.net",
