@@ -1,0 +1,2 @@
+# 最右广告拦截
+host-suffix, adapi.izuiyou.com, reject
